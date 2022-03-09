@@ -1,0 +1,58 @@
+To Do List
+
+
+
+PRIORITIES
+EMAIL TARA BUMP ABOUT RFID WRISTBANDS & READER
+
+1) Toolbox configuration - single tool options DONE
+2) Data structure to store users
+	2a) UserTree binary tree DONE
+	2b) User WWID list display DONE
+	2c) User WWID menu DONE
+3) Ability to delete toolboxes DONE
+3) Begin log file implementation - backburner - level 2 importance
+4) Save data/reload on restart - backburner (not crucial for app demonstration) - level 3 importance
+
+
+5) galileo sensor readings DONE - Working
+	5a) get at least 5 10kohm resistors DONE
+	5b) get breadboard DONE
+6) galileo software work - data structures, etc - level 1 importances
+
+
+7) server communications with galileo
+8) app fleshout
+9) server communications with app
+
+10) TUX MOTHER FUCKING EDOS
+
+
+
+11) PROFIT!!!!
+
+
+
+Priorities Part 2
+
+1) Galileo software work
+	1a) implement sensor data structure
+	1b) implement server communications <-> galileo
+	1c) write program to send sensor data to server
+	1d) ballin'
+
+2) App work
+	2a) app communication with server
+	2b) app data structures to store toolbox info received from server
+	2c) app destroy file on close
+	2d) finish tool finder functionality
+	2e) inventory display
+	2f) toolbox management
+	2g) user access management
+
+3) Server optional features
+	3a) Log File implementation
+	3b) Database save to file, load from file
+	3c) Menu cleanup??? Lots of work
+
+4) Board/presentation work

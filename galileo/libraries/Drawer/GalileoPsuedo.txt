@@ -1,0 +1,65 @@
+//Galileo Psuedo code
+
+int lockTimer = BOX_RELOCK_COUNTER_MS;
+
+
+
+void setup(){
+//open connection to server
+//check for server updates
+//check box inventory
+//update box inventory
+}
+
+const byte MAC[] = {}; 
+
+
+void loop(){
+		drawer.updateStatus();
+
+		if (countingDown)
+		{
+			if (!drawer.isOpen())
+				lockTimer = lockTimer - UPDATE_DELAY_MS;
+			if (lockTimer == 0)
+			{
+				lockBox();
+				server.notifyBoxLocked();
+			}
+				
+
+		}
+	delay(UPDATE_DELAY_MS);
+}
+
+
+/*.5s:
+check if box is open
+	if (unlocked)
+		
+	if (locked)
+		send alert to server, unauthorized access
+check if server has command
+	getservermessage
+
+
+
+Galileo:
+Needs WWID access list(get from server) - copy usertree structure from server, remove access levels (server only sends users with access level at least MT)
+
+
+A0-A3 ~460-465 = No Light
+(-1*(sensorValue-465)) > 5 = LIGHT
+
+A0 - 8mm socket
+	424
+a1 - 10mm wrench
+	452
+a2 - 12mm wrench
+	424
+a3 - Multimeter
+	440
+a5 - Open sensor
+	521 - No Light, ~491-493 - Ambient light
+
+	459 - 465 -6

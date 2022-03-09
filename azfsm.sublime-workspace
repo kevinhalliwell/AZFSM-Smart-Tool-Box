@@ -1,0 +1,896 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"n"
+			],
+			[
+				"down",
+				"downshift_word"
+			],
+			[
+				"ptr",
+				"ptr"
+			],
+			[
+				"char",
+				"char"
+			],
+			[
+				"Token",
+				"Token"
+			],
+			[
+				"selected",
+				"selectedMarketOrder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/common.h",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/Tool.h",
+			"settings":
+			{
+				"buffer_size": 561,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/File Format.txt",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Windows",
+				"name": "File Format"
+			}
+		},
+		{
+			"file": "server/Tool.cpp",
+			"settings":
+			{
+				"buffer_size": 1722,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/User.h",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/User.cpp",
+			"settings":
+			{
+				"buffer_size": 1499,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/Drawer.h",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/Drawer.cpp",
+			"settings":
+			{
+				"buffer_size": 1048,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/Box.h",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/Box.cpp",
+			"settings":
+			{
+				"buffer_size": 1681,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/BoxTree.h",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/BoxTree.cpp",
+			"settings":
+			{
+				"buffer_size": 4072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/UserTree.h",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/UserTree.cpp",
+			"settings":
+			{
+				"buffer_size": 2211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/main.cpp",
+			"settings":
+			{
+				"buffer_size": 13316,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/To Do List.txt",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Windows",
+				"name": "To Do List"
+			}
+		},
+		{
+			"file": "galileo/GalileoPsuedo.txt",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "galileo/MessageProtocol.txt",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Windows",
+				"name": "GALILEO MESSAGE PROTOCOL"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/BoxTree.h",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Menu.cpp",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Menu.h",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Tool.h",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/User.cpp",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Area.h",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Area.cpp",
+		"/C/Users/Terry/Documents/GitHub/azfsm_smartToolBox/server/Tool.cpp",
+		"/C/Users/Terry/Documents/GitHub/Literal.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/LiteralToken.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Scanner.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Scanner.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Print.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Token.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Token.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/main.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Print.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/IdentifierTree.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Literal.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/IdentifierTree.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Identifier.cpp",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/Identifier.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/common.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB5/LiteralToken.cpp",
+		"/C/Users/Terry/Documents/thread.cpp",
+		"/C/Users/Terry/Documents/GitHub/Space_Frontier/Design Documents/corefeatures.txt",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/common.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/LineList.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/LineList.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/LineNode.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/IdentifierTree.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/IdentifierTree.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Token.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Token.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Print.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Scanner.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Scanner.h",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Print.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/main.cpp",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/Makefile",
+		"/C/Users/Terry/Documents/GitHub/kLea/CSE220-T6-Lab4/structures.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/print.c",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/print.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/scanner.c",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/scanner.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/main.c",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/common.h",
+		"/C/Users/Terry/Documents/GitHub/CSE220-T6-LAB3/makefile",
+		"/C/Users/Terry/Documents/GitHub/ExchangeProject/appui.psuedo.java",
+		"/C/Users/Terry/Documents/GitHub/ExchangeProject/market.psuedo.java",
+		"/C/Users/Terry/Documents/GitHub/ExchangeProject/transactor.psuedo.java",
+		"/C/Users/Terry/Documents/GitHub/ExchangeProject/database.psuedo.java",
+		"/C/xampp/htdocs/web-friend-smash-master/friendsmash_complete/index.php",
+		"/C/xampp/htdocs/web-friend-smash-master/friendsmash_complete/scripts/game.js",
+		"/C/xampp/htdocs/GameDemo/js/main.js",
+		"/C/xampp/htdocs/GameDemo/js/main3.js",
+		"/C/xampp/htdocs/GameDemo/js/lib/enchant.js",
+		"/C/xampp/htdocs/GameDemo/index.html",
+		"/C/xampp/htdocs/GameDemo/js/kkr.js",
+		"/C/xampp/htdocs/GameDemo/js/main2.js",
+		"/C/Sites/Projects/GameDemo/js/main.js",
+		"/C/Sites/Projects/GameDemo/index.html",
+		"/C/Sites/Projects/gmaps_demo/app/assets/javascripts/application.js",
+		"/C/Sites/Projects/gmaps_demo/vendor/assets/javascripts/underscore.js",
+		"/C/Sites/Projects/treebook/app/assets/javascripts/application.js",
+		"/C/Sites/Projects/treebook/app/views/statuses/index.html.erb",
+		"/C/Sites/Projects/treebook/app/assets/javascripts/statuses.js.coffee",
+		"/C/Sites/Projects/treebook/app/views/layouts/application.html.erb",
+		"/C/Sites/Projects/treebook/app/controllers/statuses_controller.rb",
+		"/C/Sites/Projects/treebook/app/controllers/status1s_controller.rb",
+		"/C/Sites/Projects/treebook/app/controllers/application_controller.rb",
+		"/C/Sites/Projects/treebook/app/views/statuses/edit.html.erb",
+		"/C/Sites/Projects/treebook/app/views/statuses/_form.html.erb",
+		"/C/Sites/Projects/treebook/app/models/status.rb",
+		"/C/Sites/Projects/treebook/app/assets/javascripts/bootstrap.js",
+		"/C/Sites/Projects/treebook/app/models/status1.rb",
+		"/C/Sites/Projects/treebook/app/models/.gitkeep",
+		"/C/Sites/Projects/treebook/app/assets/stylesheets/application.css",
+		"/C/Sites/Projects/treebook/config/environments/development.rb",
+		"/C/Sites/Projects/treebook/config/environments/production.rb",
+		"/C/Sites/Projects/treebook/Gemfile",
+		"/C/Sites/Projects/treebook/db/schema.rb",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tree",
+			"isnumeric",
+			"next_ch",
+			"*char",
+			"enchant.Sprite"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"isdigit",
+			"char *ptr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 17,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/common.h",
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/Tool.h",
+					"settings":
+					{
+						"buffer_size": 561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/File Format.txt",
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"auto_name": "File Format",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server/Tool.cpp",
+					"settings":
+					{
+						"buffer_size": 1722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "server/User.h",
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "server/User.cpp",
+					"settings":
+					{
+						"buffer_size": 1499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "server/Drawer.h",
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "server/Drawer.cpp",
+					"settings":
+					{
+						"buffer_size": 1048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1048,
+								1048
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "server/Box.h",
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "server/Box.cpp",
+					"settings":
+					{
+						"buffer_size": 1681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "server/BoxTree.h",
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "server/BoxTree.cpp",
+					"settings":
+					{
+						"buffer_size": 4072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4072,
+								4072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2115.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "server/UserTree.h",
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "server/UserTree.cpp",
+					"settings":
+					{
+						"buffer_size": 2211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2211,
+								1820
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 873.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "server/main.cpp",
+					"settings":
+					{
+						"buffer_size": 13316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "server/To Do List.txt",
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1035,
+								1035
+							]
+						],
+						"settings":
+						{
+							"auto_name": "To Do List",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "galileo/GalileoPsuedo.txt",
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								948,
+								948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "galileo/MessageProtocol.txt",
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								911,
+								911
+							]
+						],
+						"settings":
+						{
+							"auto_name": "GALILEO MESSAGE PROTOCOL",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"usercon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"index",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}

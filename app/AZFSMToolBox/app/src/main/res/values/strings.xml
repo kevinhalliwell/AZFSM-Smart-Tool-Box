@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToolBox</string>
+    <string name="hint">Enter WWID</string>
+    <string name="hint2">Enter your bay number</string>
+    <string name="hint3">Enter WWID to view access</string>
+    <string name="hint4">Enter tool to change, add, or remove</string>
+    <string name="hint5">Enter WWID to change access</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="enter">Enter</string>
+    <string name="toolsrc">Tool Search</string>
+    <string name="viewinv">View Inventory</string>
+    <string name="toolmgmt">Tool Management</string>
+    <string name="acsmgmt">Access Management</string>
+    <string name="unlockbox">Unlock Box</string>
+    <string name="src">Search</string>
+    <string name="Tool">Choose a tool</string>
+    <string name="bayNumBox">Enter bay and box number (e.g., 202&#8211;1)</string>
+    <string name="unlock">Unlock</string>
+    <string name="toolmgmt1">Click for tool changes</string>
+    <string name="access">Click to change access</string>
+    <string name="change">Change access</string>
+    <string-array name="tool_array">
+            <item>Multimeter</item>
+            <item>8mm Socket</item>
+            <item>6mm Socket</item>
+            <item>10mm Wrench</item>
+            <item>12mm Wrench</item>
+   </string-array>
+   <string-array name="lista">
+        <item>Bay 110, Mobile</item>
+        <item>Bay 207, Lista 1</item>
+        <item>Bay 207, Lista 2</item>
+        <item>Bay 306, Lista 1</item>
+        <item>Bay 306, Lista 2</item>
+        <item>Bay 306, Pm Team Box</item>
+        <item>Bay 306, Roll-Around 1</item>
+    </string-array>
+    <string-array name="drawer">
+        <item>Drawer 1</item>
+        <item>Drawer 2</item>
+        <item>Drawer 3</item>
+        <item>Drawer 4</item>
+        <item>Drawer 5</item>
+        <item>Drawer 6</item>
+        <item>Drawer 7</item>
+    </string-array>
+    <string-array name="access">
+        <item>MT</item>
+        <item>Admin</item>
+        <item>GL</item>
+        <item>AM</item>
+        <item>Super User</item>
+    </string-array>
+</resources>

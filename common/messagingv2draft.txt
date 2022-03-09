@@ -1,0 +1,62 @@
+[AzFSM][A][B][01][01][01][0][0][000][011412302][00000000000000000000]
+5        2    2   2   2   1  1   3    9               20
+MSG_BUFFER_SIZE: 47
+
+new comm protocol
+first 5 characters = "AzFSM" - header - 5 + 2 + 2 + 2 + 2 + 1  + 1 + 3 + 9 + 20= 47
+next 2 characters = sender and type
+sender code
+"A" - app
+"S" - server
+"G" - galileo
+type code
+*"A" - ack message (STRING)
+S"B" - unlock box command (BOXID) (WWID)
+S"C" - lock box command (BOXID)
+
+A"B" - unlock box request (BOXID) (WWID)
+A"C" - lock box request (BOXID) (WWID)
+
+G"B" - box unlocked (BOXID) (WWID)
+G"C" - box locked (BOXID) (WWID)
+G"O" - drawer opened (BOXID) (DRAWERID) (LOCKED) (WWID)
+G"P" - drawer closed (BOXID) (DRAWERID) (LOCKED) (WWID)
+G"R" - tool removed (BOXID) (DRAWERID) (SENSORID) (LOCKED) (WWID)
+G"S" - tool returned (BOXID) (DRAWERID) (SENSORID) (LOCKED) (WWID)
+
+
+S"I" - server info to app (BOXID) (DRAWERID) (SENSORID) (LOCKED) (PRESENT) (WWID) (STRING)
+A"I" - app requesting info from server (BOXID - 99 for all) (DRAWERID - 99 for all) (SENSORID - 99 for all) (WWID)
+Next 2 characters - box ID
+next 2 characters - drawer ID
+next 2 characters - sensor ID
+next 1 characters - 1 locked, 0 unlocked
+next 1 characters - is present
+next 3 characters - bay number
+next 9 characters - WWID (0 is null/unidentified)
+next 20 characters - string data (box ID, tool ID, etc)
+
+
+A"O" - app open connection (WWID) (STRING - ip address)
+A"C" - app close connection (WWID) (string - IP address)
+
+S"O" - server confirm open connection (WWID) (string - access level)
+
+TYPE CODES 0.2.1
+A - ack
+B - UNLOCK BOX REQUEST 			(S->A)
+C - LOCK BOX REQUEST 			(S->A)
+M - UNLOCK BOX REQUEST  		(A->S)
+N - LOCK BOX REQUEST   			(A->S)
+D - LOCKED BOX REPORT 			(G->S)
+E - UNLOCKED BOX REPORT 		(G->S)
+O - DRAWER OPENED REPORT 		(G->S)
+P - DRAWER CLOSED REPORT 		(G->S)
+R - TOOL REMOVED REPORT 		(g->S)
+S - TOOL RETURNED REPORT 		(G->S)
+I - INFO MESSAGE 				(S->A)
+J - INFO REQUEST 				(A->S)
+K - APP USER REGISTER			(A->S)
+L - USER REGISTER CONFIRM  		(S->A)
+
+

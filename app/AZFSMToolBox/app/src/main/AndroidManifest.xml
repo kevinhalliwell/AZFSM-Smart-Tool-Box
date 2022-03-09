@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.azfsmtoolbox.app">
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name = "AZFSMToolBox" >
+        <activity android:name=".MainActivity"
+                   android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.azfsmtoolbox.Clear" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.azfsmtoolbox.Clear" />
+                <action android:name="android.intent.action.mainMenu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToolSearch">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.toolSearch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewInventory">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.viewInventory" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToolBoxManagement">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.toolBoxManagement" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AccessManagement">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.accessManagement" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AccessManagement2">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.azfsmtoolbox.Clear" />
+                <action android:name="android.intent.action.accessManagement2" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UnlockBox">
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.unlockBox" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

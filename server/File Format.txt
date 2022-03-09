@@ -1,0 +1,12 @@
+File Format
+
+char[3]			header		"AZF" - identifies this as our file type
+u32				version		1 - this version of file spec
+
+u32				users 		number of users in user tree
+user[users]		userdata	data for each user in tree (number specified by users)
+
+u32				boxes		boxes in tree
+
+
+

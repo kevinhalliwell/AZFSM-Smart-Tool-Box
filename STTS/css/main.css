@@ -1,0 +1,90 @@
+body{
+  background-color: #0071c5;
+  margin: 0;
+  padding: 0;
+  font-family: 'Verdana', sans-serif;
+}
+header{
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 120px;
+}
+
+h1{
+  color: #0071c5;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 45px 0 18px 0;
+  width: 75%;
+  float: center;
+}
+
+#logo{
+  text-align: left;
+  margin: 1% 0% 0% 2%;
+  padding: 0;
+  width: 140px;
+  float: left;
+}
+
+#peel{
+  float: right;
+  width: 80px;
+  position: absolute;
+  right: 0px;
+  top: 58px;
+}
+
+input{
+  margin: 0 0 1% 0;
+  width: 84%;
+  padding: 0 0 0 0;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  text-align: center;
+}
+
+#form{
+  margin: 10% 0 0 0;
+}
+
+#button{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select{
+  border: 2px solid;
+  background-color: #fff;
+  color: #0071c5;
+  height: 1%;
+  width: 240px;
+  font-weight: 400;
+  font-size: 1.250em;
+}
+
+button{
+  border: 2px solid;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #0071c5;
+  height: 10%;
+  width: 160px;
+  font-weight: 400;
+	font-size: 1.250em;
+}
+ul{
+  list-style: none;
+}
+li{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
